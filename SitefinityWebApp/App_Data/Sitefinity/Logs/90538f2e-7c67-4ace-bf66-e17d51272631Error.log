@@ -1,0 +1,65 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 2:08:12 PM
+
+Message: Timestamp: 7/28/2020 2:08:12 PM
+Message: System.Configuration.ConfigurationErrorsException: The connection string name is missing for the MySqlSiteMapProvider (C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config line 275) ---> System.ArgumentException: The connection string name is missing for the MySqlSiteMapProvider
+   at MySql.Web.SiteMap.MySqlSiteMapProvider.Initialize(String name, NameValueCollection config)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProviders(ProviderSettingsCollection configProviders, ProviderCollection providers, Type providerType)
+   at System.Web.Configuration.SiteMapSection.get_ProvidersInternal()
+   at System.Web.SiteMap.Initialize()
+   at System.Web.SiteMap.get_Providers()
+   at Telerik.Sitefinity.Web.SiteMapBase.GetSiteMapProvider[T](String rootName)
+   at Telerik.Sitefinity.Web.BackendSiteMap.GetCurrentProvider()
+   at Telerik.Sitefinity.Web.SiteMapProviderResolver.GetSiteMapProviderForPageNode(PageNode node)
+   at Telerik.Sitefinity.Modules.Pages.PageExtensions.GetSiteMapNode(PageNode page, SiteMapBase& sitemapProvider, CultureInfo culture)
+   at Telerik.Sitefinity.Modules.Pages.PageExtensions.GetUrl(PageNode page, Boolean backend, String paramString, CultureInfo culture, Boolean resolve)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.AddCurrentPageNodeUrlAsAdditional(PageNode node, CultureInfo language, Boolean redirectToDefault)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.ChangeParent(PageNode childNode, PageNode newParent, Boolean storeCurrentUrlAsAdditional)
+   at Telerik.Sitefinity.Abstractions.SiteInitializer.CreateDashboardGroupPage()
+   at Telerik.Sitefinity.Abstractions.SiteInitializer.InstallDefaults()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: WORKSTATION-CMB
+App Domain: /LM/W3SVC/2/ROOT-47-132404188058138756
+ProcessId: 30500
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:30600
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-47-132404188058138756
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:30600
+
+Extended Properties: 
+----------------------------------------

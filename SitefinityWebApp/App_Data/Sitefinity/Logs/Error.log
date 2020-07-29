@@ -1,0 +1,3375 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:03 PM
+
+Message: HandlingInstanceID: a81a08fd-2269-4663-9f66-3ed9f8ea9d3e
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:03
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000004 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.AdminBridge.AdminBridgeModule.CreateHostPage(ModuleInstallFacade installer)
+   at Telerik.Sitefinity.AdminBridge.AdminBridgeModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:03 PM
+
+Message: HandlingInstanceID: 80e954ca-1d0d-4c43-b1f3-3ec6e03974a4
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:03
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id c5ae5247-3ee8-4a83-ac5f-b9447cecfffc that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleNodeFacade`1.PlaceUnder(Guid parentNodeId)
+   at Telerik.Sitefinity.ABTesting.ABTestingModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:03 PM
+
+Message: HandlingInstanceID: 1f2ff034-e3e5-4008-a579-16441027f5e8
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:03
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.EloquaConnector.EloquaConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:03 PM
+
+Message: HandlingInstanceID: f0c53dc5-51cf-4b33-a3d6-c65b29e1725c
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:03
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id c5ae5247-3ee8-4a83-ac5f-b9447cecfffc that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.AnalyticsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:03 PM
+
+Message: HandlingInstanceID: 57e0a867-5990-4bee-b90c-1c4247ff8df9
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:03
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-aaaa-700000000001 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModulePageFacade`1.PlaceUnder(Guid parentNodeId)
+   at Telerik.Sitefinity.Dashboard.DashboardModule.InstallNewDashboardPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.Dashboard.DashboardModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:04 PM
+
+Message: HandlingInstanceID: 108fc7fa-414b-44d5-91b3-d9a8cbea78be
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:04
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.DataIntelligenceConnector.DataIntelligenceConnectorModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.DataIntelligenceConnector.DataIntelligenceConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:04 PM
+
+Message: HandlingInstanceID: 87e063b4-cdb6-45ec-8c24-50b617d5c7e5
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:04
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id 9b576176-5652-4496-b08b-fbdeb9a8d811 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleNodeFacade`1.PlaceUnder(Guid parentNodeId)
+   at Telerik.Sitefinity.Forums.ForumsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Forums.ForumsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:04 PM
+
+Message: HandlingInstanceID: 3d4260dd-c4b4-4acd-a7d3-7b50d0045044
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:04
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-aaaa-700000000001 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.RecycleBin.RecycleBinModule.InstallBackendPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.RecycleBin.RecycleBinModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:04 PM
+
+Message: HandlingInstanceID: 2aab785c-af98-4f6a-af0b-2adc3f8190c8
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:04
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.SalesForceConnector.SalesForceConnectorModule.InstallBackendPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.SalesForceConnector.SalesForceConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:04 PM
+
+Message: HandlingInstanceID: cfd13f3e-bb11-4fcc-9d40-1a0d92d8b371
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:04
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_dda34c0038844c55a78e09d0c31c6010.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.SharepointConnector.SharepointConnectorModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.SharepointConnector.SharepointConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-299-132404267261975456
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:06 PM
+
+Message: Timestamp: 7/28/2020 4:19:06 PM
+Message: System.Configuration.ConfigurationErrorsException: The connection string name is missing for the MySqlSiteMapProvider (C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config line 275) ---> System.ArgumentException: The connection string name is missing for the MySqlSiteMapProvider
+   at MySql.Web.SiteMap.MySqlSiteMapProvider.Initialize(String name, NameValueCollection config)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProviders(ProviderSettingsCollection configProviders, ProviderCollection providers, Type providerType)
+   at System.Web.Configuration.SiteMapSection.get_ProvidersInternal()
+   at System.Web.SiteMap.Initialize()
+   at System.Web.SiteMap.get_Providers()
+   at Telerik.Sitefinity.Web.SiteMapBase.TryGetSitefinityProvider(String name)
+   at Telerik.Sitefinity.Web.SiteMapBase.Reset()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: WORKSTATION-CMB
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+ProcessId: 30500
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:4528
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-299-132404267261975456
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4528
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:24 PM
+
+Message: HandlingInstanceID: 11d7e340-2c91-4cd7-9bfb-d3f8bf1a2be5
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:24
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 1106 (Upgrade backend pages accessible to all in Backend role) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000001 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeTo1106()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:25 PM
+
+Message: HandlingInstanceID: 80b71877-f3f6-478d-86a4-fac154338802
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:25
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 1136 (method: UpgradeTo1136) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Object reference not set to an instance of an object.
+		Source : Telerik.Sitefinity
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Boolean UpgradeTo1136()
+		HResult : -2147467261
+		Stack Trace :    at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeTo1136()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: 5551c374-6a50-46e7-b017-895962420617
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 1395 (method: UpgradeTo1395) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000001 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeTo1395()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: b810ec9c-7f1f-47cf-8629-c62024c4ec16
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 1600 (method: UpgradeAnyVersionBefore42_MakeSureOnlyDesignersHaveAccessToPageTemplates) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-aaaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeAnyVersionBefore42_MakeSureOnlyDesignersHaveAccessToPageTemplates()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: bcd3dd4c-cb63-4e2b-8149-66e1cd265884
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 1700 (method: UpgradeTaxonomyUIDefaultPermissions) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id 9aadc795-af35-45f7-b544-5c6e19d7dffd that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeTaxonomyUIDefaultPermissions()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: f6c7ded3-ee02-4195-9b6d-4dd362c3d79b
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 1700 (method: UpgradeTaxonomyUIToUseDefinitions) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Object reference not set to an instance of an object.
+		Source : Telerik.Sitefinity
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Boolean UpgradeTaxonomyUIToUseDefinitions()
+		HResult : -2147467261
+		Stack Trace :    at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeTaxonomyUIToUseDefinitions()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: 92cc95c3-acbf-4461-833a-c903f61f9387
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 2080 (method: UpgradeTo2080_Adding_the_NewTemplates) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access HierarchicalTaxon item with id f669d9a7-009d-4d83-aabb-000000000003 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Telerik.Sitefinity
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : TItem GetItemById[TItem](Telerik.Sitefinity.Data.OA.SitefinityOAContext, System.String)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.Sitefinity.Data.OpenAccessExtensions.GetItemById[TItem](SitefinityOAContext oaContext, String id)
+		   at Telerik.Sitefinity.Taxonomies.Data.OpenAccessTaxonomyProvider.GetTaxon[TTaxon](Guid id)
+		   at Telerik.Sitefinity.Taxonomies.TaxonomyManager.GetTaxon[TTaxon](Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeTo2080_Adding_the_NewTemplates()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: 4dee3cd2-fe6c-4c37-93c3-515583e3e907
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 3595 (method: AddMarketingBackendPage) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000004 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.AddMarketingBackendPage()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: ca440fb1-4eaf-4552-b630-2406b76005a5
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 4100 (method: AddContentLocationsBackendPage) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000005 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.AddContentLocationsBackendPage()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: 2505a006-6354-4d18-9e45-f757223d943b
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 4701 (method: AddDiscussionsGroupPage) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000005 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.AddDiscussionsGroupPage()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: 171bd6cc-0cc8-4c2d-a3cb-56c359d605b3
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 4900 (method: AddDashboardGroupPage) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000004 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.CreateDashboardGroupPage()
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.AddDashboardGroupPage()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: 0e48d178-e489-4c88-9126-a15626dcf7b3
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 5100 (method: UpgradeMarketingPageNode) - Exception has been thrown by the target of an invocation.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access PageNode item with id c5ae5247-3ee8-4a83-ac5f-b9447cecfffb that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Unity_ILEmit_DynamicClasses
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+		HResult : -2146233088
+		Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.UpgradeMarketingPageNode()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:26 PM
+
+Message: HandlingInstanceID: 3d8a4f92-fed5-4fd9-a143-3edc7f201044
+An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.
+----------------------------------------------------------------------------------
+07/28/2020 21:49:26
+Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Cannot drop the table 'sf_page_language_link', because it does not exist or you do not have permission.
+Source : .Net SqlClient Data Provider
+Help link : 
+Errors : System.Data.SqlClient.SqlErrorCollection
+ClientConnectionId : 46d317dd-1fc3-4d32-b1ae-3927ed3e02a7
+Class : 11
+LineNumber : 1
+Number : 3701
+Procedure : 
+Server : WORKSTATION-CMB\SQLEXPRESS
+State : 5
+ErrorCode : -2146232060
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+HResult : -2146232060
+Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at OpenAccessRuntime.CommandWrapper.ExecuteNonQuery()
+   at Telerik.OpenAccess.Runtime.Logging.LoggingDbCommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.Data.Common.OACommand.ExecuteNonQuery()
+   at Telerik.OpenAccess.OpenAccessContextBase.ExecuteNonQuery(String commandText, CommandType commandType, DbParameter[] parameters)
+   at Telerik.Sitefinity.Upgrades.To5100.PageMigrator.DropPageLanguageLinkTable(OpenAccessContext context, SqlGenerator gen)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: HelpLink.ProdName - Microsoft SQL Server
+HelpLink.ProdVer - 14.00.1000
+HelpLink.EvtSrc - MSSQLServer
+HelpLink.EvtID - 3701
+HelpLink.BaseHelpUrl - http://go.microsoft.com/fwlink
+HelpLink.LinkId - 20476
+
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:27 PM
+
+Message: HandlingInstanceID: f9e6d8c9-66ce-4cb9-b386-80f8a7da6a94
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:27
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 6400 (Creating a login failed page.) - Failed to create a login failed page.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Exception has been thrown by the target of an invocation.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+		HResult : -2146232828
+		Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+		   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+		   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+		   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+		   at System.Linq.Queryable.First[TSource](IQueryable`1 source)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.CreateLoginFailedPage()
+
+			Inner Exception
+			---------------
+			Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : Query execution did not find a matching element.
+			Source : Telerik.OpenAccess.35.Extensions
+			Help link : 
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+			HResult : -2146233079
+			Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+			   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:27 PM
+
+Message: HandlingInstanceID: 3281c2da-eb7a-47ad-aec0-cdd873ff1975
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:27
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 6700 (Creating not accessible site page.) - Failed to create not accessible site page.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+		Message : Exception has been thrown by the target of an invocation.
+		Source : mscorlib
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+		HResult : -2146232828
+		Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+		   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+		   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+		   at Telerik.OpenAccess.Query.Piece`1.System.Linq.IQueryProvider.Execute(Expression expr)
+		   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.Execute(Expression expression)
+		   at Telerik.Sitefinity.Data.Linq.OpenAccess.OpenAccessQueryProvider`2.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+		   at System.Linq.Queryable.First[TSource](IQueryable`1 source)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade_AddSiteNotAccessiblePage()
+
+			Inner Exception
+			---------------
+			Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			Message : Query execution did not find a matching element.
+			Source : Telerik.OpenAccess.35.Extensions
+			Help link : 
+			Data : System.Collections.ListDictionaryInternal
+			TargetSite : TResult PerformQuerySingle[T,TResult](Telerik.OpenAccess.Query.ExpressionCutter, System.Linq.Expressions.MethodCallExpression, Telerik.OpenAccess.Query.ChainedContext, Telerik.OpenAccess.QueryOptions)
+			HResult : -2146233079
+			Stack Trace :    at Telerik.OpenAccess.Query.ExpressionExecution.PerformQuerySingle[T,TResult](ExpressionCutter cutter, MethodCallExpression mce, ChainedContext piece, QueryOptions options)
+			   at Telerik.OpenAccess.Query.Piece`1.ExecuteSingle[TResult](Expression expression)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:27 PM
+
+Message: HandlingInstanceID: 2b4bfa3a-3dc5-439e-8c75-8908eb1138c5
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+07/28/2020 21:49:27
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : FAILED : SiteInitializer : Upgrade to 7000 (Rename Basic template catory taxon.) - Failed to rename Basic template catory taxon.
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Exception has been thrown by the target of an invocation.
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+	HResult : -2146232828
+	Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+	   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+	   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+	   at Telerik.Sitefinity.Abstractions.UpgradeMethod.Execute(Object upgradeContext)
+	   at Telerik.Sitefinity.Abstractions.SiteInitializer.Upgrade[TUpgradeInfoAttribute](Object instance, Int32 upgradeFrom, Object upgradeContext)
+
+		Inner Exception
+		---------------
+		Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+		Message : You are trying to access HierarchicalTaxon item with id f669d9a7-009d-4d83-aabb-000000000001 that no longer exists. The most probable reason is that it has been deleted by another user.
+		Source : Telerik.Sitefinity
+		Help link : 
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : TItem GetItemById[TItem](Telerik.Sitefinity.Data.OA.SitefinityOAContext, System.String)
+		HResult : -2146233088
+		Stack Trace :    at Telerik.Sitefinity.Data.OpenAccessExtensions.GetItemById[TItem](SitefinityOAContext oaContext, String id)
+		   at Telerik.Sitefinity.Taxonomies.Data.OpenAccessTaxonomyProvider.GetTaxon[TTaxon](Guid id)
+		   at Telerik.Sitefinity.Taxonomies.TaxonomyManager.GetTaxon[TTaxon](Guid id)
+		   at Telerik.Sitefinity.Abstractions.SiteInitializer.RenameBasicTemplatesTaxon()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:30 PM
+
+Message: HandlingInstanceID: c504589b-dd45-4f87-8d9a-f4ef4df6a0db
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:30
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000004 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Multisite.MultisiteModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:30 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:31 PM
+
+Message: HandlingInstanceID: d4d481b6-05a8-473b-9fac-81e02942e3d8
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:31
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000011 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.News.NewsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.News.NewsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:31 PM
+
+Message: HandlingInstanceID: 3ea80420-fa4a-45f9-8e46-09470e93990c
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:31
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000011 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.Blogs.BlogsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.Blogs.BlogsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:31 PM
+
+Message: HandlingInstanceID: e97303c7-888a-4476-b85b-6ba18a1b2f57
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:31
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000011 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.Events.EventsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:31 PM
+
+Message: HandlingInstanceID: 002a3082-0fad-41a8-a365-47adac1a92c1
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:31
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000011 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.Libraries.LibrariesModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.Libraries.LibrariesModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:32 PM
+
+Message: HandlingInstanceID: 6b268354-6df5-4511-9a28-4e12f43766d3
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:32
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000011 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.Forms.FormsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:32 PM
+
+Message: HandlingInstanceID: 3722e211-c561-461d-b8a0-1c07ccb9711a
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:32
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000011 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.Lists.ListsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.Lists.ListsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:32 PM
+
+Message: HandlingInstanceID: d5c2f734-5f25-48a5-a2b5-66592fdfdca6
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:32
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id c5ae5247-3ee8-4a83-ac5f-b9447cecfffb that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.Newsletters.NewslettersModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.Newsletters.NewslettersModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:32 PM
+
+Message: HandlingInstanceID: 1d71328f-a75b-4399-9008-348a84ebd274
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:32
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000011 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:33 PM
+
+Message: HandlingInstanceID: 2207a1d8-de7b-42f9-acd1-3a7488d712c4
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:33
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000008 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.ControlTemplates.ControlTemplatesModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:33 PM
+
+Message: HandlingInstanceID: 9cfac9e2-2ae1-47e5-8dd7-078a9deca3be
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:33
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000007 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Modules.ResponsiveDesign.ResponsiveDesignModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:33 PM
+
+Message: HandlingInstanceID: f25327ae-0b49-4037-9bb8-a6bea5046958
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:33
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id c5ae5247-3ee8-4a83-ac5f-b9447cecfffc that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Personalization.Impl.PersonalizationModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:33 PM
+
+Message: HandlingInstanceID: e121da33-5e97-4ec8-8ad2-83a0365f16cb
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:33
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id 9b576176-5652-4496-b08b-fbdeb9a8d811 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModulePageFacade`1.PlaceUnder(Guid parentNodeId)
+   at Telerik.Sitefinity.Modules.Comments.CommentsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.GenericContent.ContentModuleBase.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Modules.Comments.CommentsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:33 PM
+
+Message: HandlingInstanceID: 19969cc5-e671-4d53-87ba-722cb147832e
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:33
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000004 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.AdminBridge.AdminBridgeModule.CreateHostPage(ModuleInstallFacade installer)
+   at Telerik.Sitefinity.AdminBridge.AdminBridgeModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: b0917920-8018-4c33-bcea-d30158ee0af0
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id c5ae5247-3ee8-4a83-ac5f-b9447cecfffc that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleNodeFacade`1.PlaceUnder(Guid parentNodeId)
+   at Telerik.Sitefinity.ABTesting.ABTestingModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: ddd1cf91-92c2-422c-bcb6-140a5e15b12c
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.EloquaConnector.EloquaConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: fb012f78-6c29-415f-9a1d-acbf388b17d1
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id c5ae5247-3ee8-4a83-ac5f-b9447cecfffc that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.AnalyticsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: 95552059-6a56-437b-bcb6-43da547adc98
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-aaaa-700000000001 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModulePageFacade`1.PlaceUnder(Guid parentNodeId)
+   at Telerik.Sitefinity.Dashboard.DashboardModule.InstallNewDashboardPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.Dashboard.DashboardModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: 7f275864-c91e-4bf7-8d4c-1a124ba658dd
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.DataIntelligenceConnector.DataIntelligenceConnectorModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.DataIntelligenceConnector.DataIntelligenceConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: 713bc8a9-ce7e-4b90-a0d3-1a508685c219
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id 9b576176-5652-4496-b08b-fbdeb9a8d811 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleNodeFacade`1.PlaceUnder(Guid parentNodeId)
+   at Telerik.Sitefinity.Forums.ForumsModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.Forums.ForumsModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: aa3389e0-9599-4da5-baf0-4a34c2912e12
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-aaaa-700000000001 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.RecycleBin.RecycleBinModule.InstallBackendPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.RecycleBin.RecycleBinModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: 38fe2ef1-6e19-4ff1-b982-2e1a1a8ecde2
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.SalesForceConnector.SalesForceConnectorModule.InstallBackendPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.SalesForceConnector.SalesForceConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:34 PM
+
+Message: HandlingInstanceID: 636e6574-7ea5-4547-81db-15d4cecdfc3e
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+07/28/2020 21:49:34
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageNode item with id f669d9a7-009d-4d83-ddaa-000000000010 that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Pages.Model.PageNode GetPageNode(System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_c079e99520f44006833c5153c468371c.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetPageNode(Guid id)
+   at Telerik.Sitefinity.Fluent.Modules.ModuleFacadeBase`1.GetPageNode(PageManager pageManager, CommonNode commonNode)
+   at Telerik.Sitefinity.Connectivity.ConnectorsHelper.CreateConnectivityGroupPage(SiteInitializer initializer)
+   at Telerik.Sitefinity.SharepointConnector.SharepointConnectorModule.InstallPages(SiteInitializer initializer)
+   at Telerik.Sitefinity.SharepointConnector.SharepointConnectorModule.Install(SiteInitializer initializer)
+   at Telerik.Sitefinity.Services.ModuleBase.Install(SiteInitializer initializer, Version upgradeFrom)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WORKSTATION-CMB
+TimeStamp : 7/28/2020 4:19:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=13.0.7326.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-300-132404267574433217
+ThreadIdentity : Anonymous
+WindowsIdentity : WORKSTATION-CMB\chris
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 7/28/2020 4:19:36 PM
+
+Message: Timestamp: 7/28/2020 4:19:36 PM
+Message: System.Configuration.ConfigurationErrorsException: The connection string name is missing for the MySqlSiteMapProvider (C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config line 275) ---> System.ArgumentException: The connection string name is missing for the MySqlSiteMapProvider
+   at MySql.Web.SiteMap.MySqlSiteMapProvider.Initialize(String name, NameValueCollection config)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Configuration.ProvidersHelper.InstantiateProvider(ProviderSettings providerSettings, Type providerType)
+   at System.Web.Configuration.ProvidersHelper.InstantiateProviders(ProviderSettingsCollection configProviders, ProviderCollection providers, Type providerType)
+   at System.Web.Configuration.SiteMapSection.get_ProvidersInternal()
+   at System.Web.SiteMap.Initialize()
+   at System.Web.SiteMap.get_Providers()
+   at Telerik.Sitefinity.Web.SiteMapBase.TryGetSitefinityProvider(String name)
+   at Telerik.Sitefinity.Web.SiteMapBase.Reset()
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: WORKSTATION-CMB
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+ProcessId: 30500
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Thread Name: 
+Win32 ThreadId:23352
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: WORKSTATION-CMB
+
+App Domain: /LM/W3SVC/2/ROOT-300-132404267574433217
+
+ProcessId: 30500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23352
+
+Extended Properties: 
+----------------------------------------
